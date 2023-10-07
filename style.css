@@ -1,0 +1,375 @@
+*
+{
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pangolin', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+header
+{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 100;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+    background-color: white;
+
+}
+.navbar
+{
+    
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+    height: 70px;
+}
+.mynav-1
+{
+    /* margin-top: -15px; */
+    margin-left: -30px;
+    
+}
+.mynav-1 a #main-logo
+{
+    height: 75px;
+    width: 120px;
+margin-right: 80px;    
+}
+.mynav-2
+{
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-wrap: nowrap;
+}
+.mynav-2 li{
+    list-style: none;
+    margin-left: 10px;
+}
+.mynav-2 .nav-button-1 
+{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 50px;
+    border: none;
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.mynav-2 .nav-button-1:hover
+{
+    background-color: #f5f5f5;
+    color: black;
+}
+.mynav-2 .nav-button-2
+{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: rgba(0, 0, 255, 0.808);
+}
+.mynav-2 .nav-button-2:hover
+{
+    background-color: blue;
+    color: rgba(218, 218, 255, 0.842);
+}
+main
+{
+    /* margin-left: -250px; */
+    padding-top: 190px;
+}
+.my-container-1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.my-container-1-1 .para-1 img
+{
+    height: 30px;
+    width: 30px;
+}
+.my-container-1-1 .para-1
+{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(0, 38, 255, 0.87)
+}
+.my-container-1-1 .para-2
+{
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+    line-height: 75px;
+}
+.my-container-1-1 .para-3
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.842);
+}
+.my-container-1-1 .para-4 input[type="text"]
+{
+ height: 70px;
+    width: 270px;
+ border-radius: 5px;
+ border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.my-container-1-1 .para-4 input[type="text"]::placeholder
+{
+    font-size: 18px;
+    border: none;
+}
+.my-container-1-1 .para-4 button
+{
+    height: 70px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 68, 255, 0.829);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.my-container-1-1 .para-4 button:hover
+{
+    background-color: rgba(0, 0, 255, 0.829);
+    color: white;
+}   
+.my-container-1-2 img{
+    height: 500px;
+    width: 500px;
+}
+.section-2
+{
+    width: 100%;
+    height: 250px;
+    background-color: #000000f5;
+    margin-bottom: 20px;
+}
+.my-container-2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    /* padding-left: -100px; */
+    /* margin-left: -5px; */
+    
+}
+.my-container-2-1 img{
+    padding-top: 40px;
+    height: 180px;
+    width: 160px;
+}
+.my-container-2-2 .para-1
+{
+    padding-top: 20px;
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+}
+.my-container-2-2 .para-2
+{
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.my-container-2-2 button
+{
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(0, 68, 255, 0.829);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+}
+.my-container-2-2 button:hover
+{
+    background-color: rgba(0, 102, 255, 0.76);
+    color: black;
+}
+.section-3
+{
+    margin-top: 80px;;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.table-1
+{
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    border-collapse: collapse;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.table-1 tr
+{
+
+border-bottom: 1px solid rgba(128, 128, 128, 0.267);
+
+}
+.table-1 .myrow-1 td
+{
+    font-size: 15px;
+    color:rgba(128, 128, 128, 0.767)
+    
+}
+.table-1 tr td
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-size: 18px;
+    color:  black;
+}
+.table-1 tr .myprofit
+{
+    color: green;
+}
+.table-1 tr .myloss
+{
+    color: red;
+}
+.table-1 tr .mycol-2
+{
+    width: 400px;
+}
+.table-1 tr .highlighted-1
+{
+    color: rgba(128, 128, 128, 0.459)
+}
+.table-1 tr button
+{
+    color: white;
+    background-color: rgba(4, 128, 0, 0.719);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 60px;
+}
+.table-1 tr button:hover
+{
+    background-color: rgba(4, 128, 0, 0.842);
+    color: white;
+}
+.section-4{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    
+}
+.mycontainer-3
+{
+    margin-left: 150px;
+    display: flex;
+    gap: 250px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.mycontainer-3-1 .para-1
+{
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+}
+.mycontainer-3-1 .para-2
+{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.842);
+}
+.mycontainer-3-1 button{
+    border-radius: 5px;
+    border: none;   
+    height: 50px;
+    width: 150px;
+    background-color: rgba(0, 68, 255, 0.829);
+    color: white;
+}
+.mycontainer-3-1 button:hover
+{
+    background-color: rgba(0, 0, 255, 0.829);
+    color: white;
+}
+
+.mycontainer-3-2 li
+{
+    height: 70px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.mycontainer-3-2 li .li-1{
+    font-size: 17px;
+}
+.mycontainer-4
+{
+    margin-top: 70px;
+}
+.mycontainer-4 h3
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+.mycontainer-4 p
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.637);
+    text-align: center;
+    margin-top: 20px;
+}
+.section-6
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: -60px;
+}
+.mycontainer-6
+{
+    margin-top: 70px;
+}
+.mycontainer-6 h3
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+.mycontainer-6 p
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.637);
+    text-align: center;
+    margin-top: 20px;
+}
+.section-8
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
